@@ -1,0 +1,87 @@
+Hello, I'm Jason and I study Applied Mathematics at RMIT. Applied Mathematics is where we apply maths to real-world problems. That could be data analytics in sport, pandemic modelling and making similulations for the defense industry. It even includes video games, if that's your thing. 
+
+I think there are a lot of maths students who might not really get why they need to know about maths. At school I wondered what was algebra and triganometry and all of that, what's it all for.
+ 
+Now I'm 35. I've done a bunch of different jobs and I can tell you that maths definitely is useful and it's something employers value.
+
+Anyway, that's all serious stuff. Let me show you something I did at home to save some money.
+
+----
+
+This is my Honda VTR 250. It is pretty fun to ride. When you ride a bike it's good to have all the gear like helmet, boots and everything in case you fall off.
+
+The trouble is, what happens when you get to where you're going? Are you going to contine wearing all of this stuff? You probably don't want to carry it with you.
+
+There are people who have purcahsed a system for the back but the decent ones are hundreds of dollars. Yikes.
+
+So I made this box to sit on the back. It still has to be painted but I'll get there. The trouble is I also needed a way to attach it to the motorbike securely.
+
+Here's what I ended up building, so you know what it looks like (attached).
+
+----
+
+Ok, so I like welding and fabrication as a hobby. I knew that I could use a peice of square tube to make a rack for the box. You can easily bend square tube by using an angle grinder to cut grooves into it and then bend the tube in a vice. The more grooves you make the more the tube will bend around to be approximately circular.
+
+----
+
+To figure out how much the tube would need to bend I did this. (PIC) This was so I could understand what was the angle between the square tube on the bike and the bike's seat, which is relatively flat and relatively parralel to the ground. I wanted the box to be more-or-less parralell to the ground. I blew this photograph up on my laptop and used a protractore to get the rough angle. 
+
+I also wanted the rack to be a certain width so that the box would be an appropriate height and rest just above the seat. (PIC OF BOX).
+
+So that means there are two things to find: I need to find the angle that the metal has to bend and also the total width of the rack to have a box on the bike that is flat and is also the right height.
+
+----
+
+Here comes the maths!
+
+Given the square tube of a fixed bredth, which we will call b, and given a fixed width of the cutting disk that I would use to cut grooves, c, then we can create a bend like this.
+
+If you have a look at this smaller triangle, it has 2 sides of b and one of c, roughly. I am interested in finding the angle, theta. We can find the angle using triganometry. You can apply triganometry to triangles that aren't square but it's much easier with square triangles, so let's consider this right triangle and we can call its angle theta/2. 
+
+So if you remember "SOH-CAH-TOA", and if you can see that this right angle triangle has a known hypotenuse that is b, or the bredth of the metal, and it has an opposite side of c/2, then to find the angle we use the inverse sin function, which is sin^-1(c/2 / b). That will find theta/2, so theta is 2 times the sin function.
+
+So we determined earlier that the tube had to bend a total of ____ degrees. We now know that each groove I will cut with the angle grinder produces an angle, when it's fully bent as far as it goes, of about ____ degrees. So how many grooves do I need? That's just the total bend over the groove angle, and that will give me ____
+
+----
+
+We've found half of the problem but I still need to make sure that the total size of the rack is the right size to have the box the right height above the seat.
+
+If we have a think about the pipe with grooves cut in it, then the number of cuts will make it bend to a certain angle, as we've seen. We also need to think about the spaces between those grooves, as we'll see now.
+
+If you take a tube and cut grooves into it at regular intervals then when you bend it in the vice to form a full rotation then the shape will be approximately circular. Then the total width that the rack needs to be needs to be the outside diameter of that approximately circular shape.
+
+Hopefully you remember that the circumference of a circle is the distance around the outside of a circle, so in this approximately circular shape that we've made from the pipe, the space around the outside is equal to the width of the grooves, g, and the spaces between those grooves. Since we know from earlier just how many grooves we need then we also know how many spaces between those grooves we will need. It's just one less.
+
+----
+
+So now we're almost done but we're yet to write down the equation.
+
+The total space around the outside is equal to the number of grooves, n, times the width of each groove, g, and the space in between.
+
+c = n * g + n * s
+
+We can factor out the n here to be more simple:
+
+c = n(g + s)
+
+but remember we don't want the entire circumference, we want the a pie shape with the angle that will make the box sit flat. Therefore, let's rename c as a, for the angle that we measured with the protractor at the start.
+
+a = n(g + s)
+
+Let's substitute in everything we already know.
+
+a = n(g + s) (with values subtituted)
+
+It's clear that the unknown is s, so let's solve for s:
+
+a/n = g + s
+
+a/n - g = s
+
+s = a/n - g
+
+----
+
+Hopefully you've followed this but if you didn't, that's ok. Maths is famous for being hard. When I'm at uni I sometimes have to watch lectures more than once. Feel free to watch this video more than once if you need and also ask me questions if it didn't quite make sense.
+
+Thanks heaps and I look forward to meeting you.
